@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Net.NetworkInformation;
+using System.Xml.Linq;
 
 namespace Type_of_Params
 {
@@ -10,6 +12,8 @@ namespace Type_of_Params
             bool isActive = false;
             string employeeName = "Ravi";
 
+            Console.WriteLine($"Outside Method Employee id is : {employeeId} Employee status is {isActive} Employee name {employeeName}");
+
             UpdateEmployeeDetails(employeeId, isActive, employeeName);
         }
 
@@ -19,7 +23,7 @@ namespace Type_of_Params
             status = true;
             name = "Lahy";
 
-            Console.WriteLine($"Employee id is : {empId} Employee status is {status} Employee name {name}");
+            Console.WriteLine($"Inside Method Employee id is : {empId} Employee status is {status} Employee name {name}");
         }
     }
 }
