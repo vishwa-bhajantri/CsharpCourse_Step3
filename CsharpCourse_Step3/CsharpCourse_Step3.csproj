@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OptionalParameter_Example.NotificationService</StartupObject>
+    <StartupObject>Tasks.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,6 +55,11 @@
     <Compile Include="4.Type_of_Params\2.Ref_type_params\2.Ref_type.cs" />
     <Compile Include="4.Type_of_Params\3.params_typeParams.cs" />
     <Compile Include="4.Type_of_Params\4.optional_TypeParms.cs" />
+    <Compile Include="4.Type_of_Params\5.Named_TypeParams.cs" />
+    <Compile Include="4.Type_of_Params\7.generic_typeparam_WithEntity .cs" />
+    <Compile Include="4.Type_of_Params\6.generic_typeparam.cs" />
+    <Compile Include="5.Tasks\1.SyncCalls.cs" />
+    <Compile Include="5.Tasks\2.Tasks.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="4.Type_of_Params\1.Value_Type_Params.cs" />
   </ItemGroup>
