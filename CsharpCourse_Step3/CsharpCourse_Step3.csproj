@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Tasks.Program</StartupObject>
+    <StartupObject>MultipltCatchExceptionHandle.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,7 @@
     <Compile Include="1.Methods_Revision.cs" />
     <Compile Include="2.Methods_advanced.cs" />
     <Compile Include="3.Method_Preparation_ShortWay.cs" />
+    <Compile Include="5.ExtensionMethods_DataTypes.cs" />
     <Compile Include="4.Type_of_Params\2.Ref_type_params\1.In_type.cs" />
     <Compile Include="4.Type_of_Params\2.Ref_type_params\3.Out_type .cs" />
     <Compile Include="4.Type_of_Params\2.Ref_type_params\2.Ref_type.cs" />
@@ -60,6 +61,10 @@
     <Compile Include="4.Type_of_Params\6.generic_typeparam.cs" />
     <Compile Include="5.Tasks\1.SyncCalls.cs" />
     <Compile Include="5.Tasks\2.Tasks.cs" />
+    <Compile Include="4.ExtensionMethods.cs" />
+    <Compile Include="8.CustomExceptionHandle.cs" />
+    <Compile Include="7.MultipleCatchExceptionHandle .cs" />
+    <Compile Include="6.RunTimeExceptionHandle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="4.Type_of_Params\1.Value_Type_Params.cs" />
   </ItemGroup>
